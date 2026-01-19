@@ -4,6 +4,7 @@
 #define NAME_LEN 50
 #define PHONE_LEN 20
 #define EMAIL_LEN 50
+#define MAX_CONTACTS 1000
 
 typedef struct 
 {
