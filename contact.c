@@ -58,5 +58,10 @@ void list_contacts(const Contact contacts[], int count)
 
 int find_contact_by_name(const Contact contacts[], int count, const char *name)
 {
-
+    for (int i = 0; i < count; i++) {
+        if (strcmp(contacts[i].name, name) == 0) {
+            return i;
+        }
+    }
+    return -1;
 }
