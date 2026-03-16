@@ -54,8 +54,6 @@ void list_contacts(const Contact contacts[], int count)
     }
 }
 
-//Find contact by name
-
 int find_contact_by_name(const Contact contacts[], int count, const char *name)
 {
     for (int i = 0; i < count; i++) {
