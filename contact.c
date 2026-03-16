@@ -2,7 +2,6 @@
 #include<string.h>
 #include "contact.h"
 
-//add contact
 
 int add_contact(Contact contacts[], int *count)
 {
