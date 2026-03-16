@@ -34,8 +34,6 @@ int add_contact(Contact contacts[], int *count)
     return 1;
 }
 
-//list all contacts
-
 void list_contacts(const Contact contacts[], int count)
 {
      if (count == 0) {
