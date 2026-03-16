@@ -18,4 +18,5 @@ int add_contact(Contact contacts[], int *count);
 void list_contacts(const Contact contacts[],int count);
 int find_contact_by_name(const Contact contacts[], int count, const char *name);
 
+
 #endif
