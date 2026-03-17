@@ -2,7 +2,6 @@
 #include<string.h>
 #include "contact.h"
 
-
 int add_contact(Contact contacts[], int *count)
 {
     if(*count >= MAX_CONTACTS)
