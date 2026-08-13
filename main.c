@@ -32,7 +32,8 @@ int main(void)
              printf("Contacts saved. Goodbye.\n");
             break;
         }
-        switch (choice) {
+        switch (choice) 
+        {
             case 1:
                 add_contact(contacts, &contact_count);
                 break;
@@ -41,7 +42,8 @@ int main(void)
                 list_contacts(contacts, contact_count);
                 break;
 
-            case 3: {
+            case 3: 
+            {
                 char name[NAME_LEN];
                 int index;
 
@@ -51,13 +53,15 @@ int main(void)
 
                 index = find_contact_by_name(contacts, contact_count, name);
 
-                if (index >= 0) {
+                if (index >= 0) 
+                {
                     printf("\nContact found:\n");
                     printf("ID: %d\n", contacts[index].ID);
                     printf("Name: %s\n", contacts[index].name);
                     printf("Phone: %s\n", contacts[index].phone);
                     printf("Email: %s\n", contacts[index].email);
-                } else {
+                } else 
+                {
                     printf("Contact not found.\n");
                 }
                 break;
